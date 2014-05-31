@@ -26,7 +26,9 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-TEMPLATE_DIRS = ('/Users/jasontraff/Dropbox/Code/letsplay/mysite/templates')
+TEMPLATE_DIRS = [os.path.join(BASE_DIR, 'templates')]
+#TEMPLATE_DIRS = ('/Users/jasontraff/Dropbox/Code/letsplay/mysite/templates')
+#This could have worked too, but the other one seems more elegant
 
 # Application definition
 
