@@ -12,3 +12,5 @@ class Result(models.Model):
   question = models.ForeignKey(Question)
   def __str__(self):
     return self.result_text
+
+    
