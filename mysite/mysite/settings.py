@@ -26,6 +26,7 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TEMPLATE_DIRS = ('/Users/jasontraff/Dropbox/Code/letsplay/mysite/templates')
 
 # Application definition
 
