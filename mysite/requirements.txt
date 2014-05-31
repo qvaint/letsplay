@@ -1,0 +1,5 @@
+Django==1.6.5
+Fabric==1.8.3
+South==0.8.4
+paramiko==1.12.4
+wsgiref==0.1.2
